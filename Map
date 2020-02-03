@@ -1,0 +1,13 @@
+var notas = [5, 4, 10, 0];
+
+var sist = function(x) {
+    if(x > 5 || x == 5){
+        return 'Aprovado!';
+    } else {
+        return 'Reprovado!';
+    }
+};
+
+var res = notas.map(sist);
+
+console.log(res);
